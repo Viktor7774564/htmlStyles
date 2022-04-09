@@ -1,0 +1,114 @@
+/* General setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+a:link
+{
+    color: #a66;
+    font-family: "Almarai", sans-serif;
+}
+
+.links-list a, a:visited{
+    border: 2px solid #a66;
+    color: #a66;
+    width: 170px;
+    text-decoration: none;
+    padding: 1em;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.links-list a:hover {
+    background-color: burlywood;
+    color: #a66;
+    
+}
+
+a[href^="http"] {
+    background: url('https://raw.githubusercontent.com/mdn/learning-area/main/css/styling-text/typesetting-a-homepage-start/external-link-52.png') no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+}
+
+ol, ul
+{
+    font-family: "Almarai", sans-serif;
+}
+
+.delpoint li
+{
+   display: inline;
+}
+
+li
+{
+    margin-bottom: 10px;
+}
+
+p
+{
+   text-indent: 20px;
+   word-spacing: 4px;
+   letter-spacing: 2px;
+   font-family: "Almarai", sans-serif;
+}
+
+h1, h2
+{
+    font-family: "Zilla Slab", serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+h1
+{
+    font-size: 45px;
+    text-align: center;
+}
